@@ -1,0 +1,9 @@
+{
+  "name": "fe-projects",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/xbzhang2020/fe-projects.git",
+  "author": "zhangxingbin <xbzhang2020@icloud.com>",
+  "license": "MIT"
+}
