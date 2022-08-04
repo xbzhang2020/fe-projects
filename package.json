@@ -5,5 +5,22 @@
   "main": "index.js",
   "repository": "https://github.com/xbzhang2020/fe-projects.git",
   "author": "zhangxingbin <xbzhang2020@icloud.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "private": "ture",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint src/** --ext .js",
+    "start": "webpack-dev-server --open --mode=development",
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.9.3",
+    "eslint": "^8.19.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.7.1"
+  }
 }
