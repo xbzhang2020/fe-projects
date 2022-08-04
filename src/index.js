@@ -1,3 +1,1 @@
-// import './modules/index.js'
-
-import './modules/index.cjs'
+import './modules/index.js'

@@ -6,6 +6,7 @@ module.exports = {
   entry: {
     index: './src/index.js',
   },
+  devtool: false,
   output: {
     filename: '[name].js',
     path: path.resolve(__dirname, 'dist'),
